@@ -2,12 +2,12 @@ name: deploy
 
 on:
     push:
-        branchs: ["main"]
+        branches: ["main"]
     
     workflow_dispatch:
 
 permissions:
-    content: read
+    contents: read
     pages: write
     id-token: write
 
